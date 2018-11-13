@@ -1,6 +1,9 @@
 ### A script to check the variable matches (and mismatches) 
 ### between HIT template (j2) and data files (jsonl).
 
+### (usage example) 
+### > python scripts/check_variables.py --template ./examples/html-question/definition/question.xml.j2 --data ./examples/html-question/data.jsonl
+
 import re
 import json
 import argparse
